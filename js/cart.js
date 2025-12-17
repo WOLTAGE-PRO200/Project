@@ -8,7 +8,7 @@ function get_item(item) {
     return `<div class = "cart-item">
                 <h4 class="cart-item-title">${item.title}</h4>
                 <div class="cart-item-quantity">Кількість: ${item.quantity}</div>
-                <div class="cart-item-price" data-price="${item.price}">${item.price * item.quantity} грн</div>
+                <div class="cart-item-price" data-price="${item.price}">${item.price * item.quantity} $</div>
             </div>`
 }
 

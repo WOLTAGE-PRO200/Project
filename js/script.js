@@ -30,7 +30,7 @@ async function getProducts() {
 function getCardHTML(product) {
     return `
         <div class="my-card" style="">
-            <img src="../img/${product.image}">
+            <img src="img/${product.image}">
             <h5 class="text-my-card">${product.title}</h5>
             <p class="description-card">
             ${product.description}
