@@ -6,7 +6,7 @@
 }
 
 .cart-item {
-    border: 1px solid rgb(83, 83, 83);
+    border: 1px solid rgb(70, 3, 255);
     padding: 20px 30px;
     border-radius: 10px;
     margin: 5px 0;
@@ -27,7 +27,7 @@
 }
 
 .cart-total {
-    color: rgb(153, 128, 255);
+    color: rgb(112, 112, 112);
 }
 
 .order {

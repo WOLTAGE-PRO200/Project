@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #272727;
+    background-color: #0b065a;
     color: white;
     font-family: "Playfair Display", serif;
     margin: 0px;
@@ -113,7 +113,7 @@ header {
 
 footer {
     margin-top: 50px;
-    background: rgb(73, 73, 73);
+    background: rgb(12, 109, 64);
     padding: 50px 100px;
 }
 
