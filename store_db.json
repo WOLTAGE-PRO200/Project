@@ -16,5 +16,23 @@
         "price": 48000,
         "image": "mercedes_gle.jpg",
         "description": "Елегантний і комфортний автомобіль від Mercedes з інноваційними системами безпеки та преміум-інтер'єром"
+    },
+     {
+        "title": "Toyota Land Cruiser",
+        "price": 55000,
+        "image": "toyota_land_cruiser.jpg",
+        "description": "Надійний легендарний позашляховик, створений для важких умов експлуатації та тривалих поїздок"
+    },
+    {
+        "title": "Volkswagen Touareg",
+        "price": 47000,
+        "image": "vw_touareg.jpg",
+        "description": "Універсальний преміальний SUV з відмінним балансом комфорту, потужності та практичності"
+    },
+    {
+        "title": "Range Rover Sport",
+        "price": 60000,
+        "image": "range_rover_sport.jpg",
+        "description": "Потужний та статусний позашляховик з високою прохідністю, сучасними технологіями та розкішним салоном"
     }
 ]
