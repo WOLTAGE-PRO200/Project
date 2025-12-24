@@ -3,6 +3,7 @@ let cart_total = document.querySelector('.cart-total')
 let orderBtn = document.querySelector("#orderBtn")
 let orderSection = document.querySelector(".order")
 
+let order_form = document.querySelector("#order-form")
 
 function get_item(item) {
     return `<div class = "cart-item">
@@ -31,4 +32,16 @@ orderBtn.addEventListener("click", function (event) {
         duration: 1000, // Тривалість анімації в мілісекундах
         easing: 'easeInOutQuad'
     })
+})
+
+
+order_form.addEventListener("submit", function (event) {
+    event.preventDefault(); // Запобігає перезавантаженню сторінки при відправці форми
+    alert("Дякуємо за ваше замовлення! Ми зв'яжемося з вами найближчим часом.");
+    cart.items = {} // очищуємо кошик
+    cart.saveCartToCookies() // зберігаємо порожній кошик у кукі
+    showCartList() // оновлюємо відображення кошика
+    order_form.reset() // скидаємо форму
+    orderSection.style.display = "none" // ховаємо секцію оформлення замовлення
+    orderBtn.style.display = "block" // показуємо кнопку "Оформити замовлення"
 })
